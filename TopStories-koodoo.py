@@ -6,7 +6,6 @@
 
 import requests as req
 import xml.etree.ElementTree as ET
-import sys
 import traceback
 
 
@@ -30,7 +29,7 @@ if __name__ == '__main__':
     
     # parse the response from endpoint
     if str(response) != req.codes.ok and data == '':
-        print("Didn't receive a correct response from server please invetigate, URL :",api_endpoint," response_code: ",response)
+        print("Didn't receive a correct response from server please investigate, URL :",api_endpoint," response_code: ",response)
     else:
         try:
             root=ET.fromstring(data)
