@@ -1,7 +1,7 @@
 # Readme for Koodoo Technical challange
 
 This file lists and describes the developed code and steps to run the code for the challange
-
+The code for this can be downloaded from the [Gitbub repo](https://github.com/Jitender0126/Koodoo)
 ## 1. The Solution
 I have used python as a programming language to approach this solution.
 
